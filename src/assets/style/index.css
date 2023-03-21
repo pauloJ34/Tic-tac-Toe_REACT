@@ -8,13 +8,19 @@
     font-family: 'Lato', sans-serif;
     
 }
+.main
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    height: 100vh;
+}
 .game-layout
 {
     display: flex;
-    /* justify-content: center;
-    align-items: center;
-    align-content: center; */
-    height: 100vh;
+    /* justify-content: flex-start; 
+    align-items: center;*/
+    align-content: flex-start;
     width: 100%;
     flex-wrap: wrap
 }
@@ -22,6 +28,7 @@
 {
     position: relative;
     margin-left: 1rem;
+    margin-bottom: 20px;
     width: 100%;
 }
 
@@ -47,7 +54,7 @@
     display: grid;
     grid-template-columns: 200px 200px 200px;
     grid-template-rows: 200px 200px 200px;
-    margin: 0 auto;
+    margin: 50px auto;
 }
 .xy
 {
@@ -154,6 +161,43 @@
     background-color: rgb(0, 131, 0);
     text-shadow: rgba(0, 0, 0, 0.3) 2px 2px 0px;
     box-shadow:  rgba(0, 0, 0, 0.2) 0px 3px 0px,rgba(0, 0, 0, 0.6) 0px 1px 0px;
+}
+footer
+{
+    width: 100%;
+}
+.center
+{
+    border-top: rgba(0, 0, 0, 0.6) 1px solid;
+    box-shadow: inset rgba(0, 0, 0, 0.3) 0 2px 10px;
+    padding: 20px 0 10px;
+}
+.center span
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center span a
+{
+    text-decoration: none;
+    color: rgb(0, 120, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline-start: 3px;
+
+}
+.center .centralize
+{
+    display: flex;
+    justify-content: center;
+}
+.center .centralize img
+{
+    height: 3.5rem;
+    border-radius: 50%;
+
 }
 @media only screen and (max-width: 600px) 
 {
