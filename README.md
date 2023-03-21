@@ -13,3 +13,7 @@
 - Nele possui um Score (pontuação), na qual é separado entre o jogador X e O com seu respectivo ponto.
 
 - Ele foi criado inteiramente em React-TS
+
+<hr>
+
+<h3>Link para Acessar</h3> <a href="https://tic-tac-qiwzogs8w-pauloj34.vercel.app">tic-tac-qiwzogs8w-pauloj34.vercel.app</a>
