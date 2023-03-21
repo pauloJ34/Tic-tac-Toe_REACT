@@ -82,7 +82,7 @@ import React, {useState,useEffect} from "react"
         
     }
     return(
-        <main className="game-layout">
+        <div className="game-layout">
             <div className="score">
                 <span className="text-score">Score:</span>
                 <div className="score-grid">
@@ -104,7 +104,7 @@ import React, {useState,useEffect} from "react"
                     </div>
                 ))}
             </div>
-        </main>
+        </div>
     )
 }
 export default Tic_tac_toe;
