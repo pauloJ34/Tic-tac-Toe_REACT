@@ -16,4 +16,4 @@
 
 <hr>
 
-<h3>Link para Acessar</h3> <a href="https://tic-tac-toe-pauloj34.vercel.app/">tic-tac-toe-pauloj34.vercel.app/</a>
+<h3>Link para Acessar</h3> <a href="https://tic-tac-toe-pauloj34.vercel.app">tic-tac-toe-pauloj34.vercel.app</a>
