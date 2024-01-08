@@ -69,7 +69,7 @@ import React, {useState,useEffect} from "react"
                     <span className= {`${props.playerVictory}`}>
                         {props.playerVictory}
                     </span><br />
-                    <button className="bt-reset" onClick={()=>refreshGame()}>Re-Jogar</button>
+                    <button className="bt-reset" onClick={()=>refreshGame()}>Jogar Novamente</button>
                 </main>
             </div>
         )
