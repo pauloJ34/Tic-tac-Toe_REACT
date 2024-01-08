@@ -5,10 +5,10 @@
 	como é feito no próprio jogo real, também possui um placar, onde é possivel ver o quantas vezes o jogardor ganhou.
 </p>
 
-## Sobre Tópicos
+## Sobre
 
-- Esse é um pequeno projeto que criei para testar e aprender um pouco sobre React.
-- Ele é um jogo da velha.
+- Um pequeno jogo da velha
+- Esse é um pequeno projeto que criei para testar e aprender um pouco sobre React e TypeScript.
 - Nele possui as regras originais do jogo e mesmas formar de ganhar.
 - O primeiro jogar é o X.
 - Nele possui um Score (pontuação), na qual é separado entre o jogador X e O com seu respectivo ponto.
